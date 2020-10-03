@@ -1,0 +1,2 @@
+number of binary string not having three one
+an=an-1+an-2+an-3

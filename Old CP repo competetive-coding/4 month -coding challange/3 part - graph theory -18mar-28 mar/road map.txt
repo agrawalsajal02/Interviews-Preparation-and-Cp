@@ -1,0 +1,32 @@
+tree diametter
+https://codeforces.com/contest/920/problem/E
+
+
+
+1) a)bfs theory with applications
+   b)bfs implimentations
+   c)bfs relatd numericals 5-10 (depend on capacity)
+   d)bfs application numericals (if any)
+         links :-https://www.youtube.com/watch?v=MTsvJUwZdS4
+          codeforces:-https://codeforces.com/problemset/problem/242/C
+      1)cycle detection only in undireected graph
+      2) Ford–Fulkerson algorithm In Ford-Fulkerson algorithm, we can either use Breadth First or Depth First Traversal to find the maximum flow. Breadth First Traversal is preferred as it reduces worst case time complexity to O(VE2).
+      3)Path Finding We can either use Breadth First or Depth First Traversal to find if there is a path between two vertices
+      4) Finding all nodes within one connected component: We can either use Breadth First or Depth First Traversal to find all nodes reachable from a given node.
+      
+
+2) a)bfs theory with applications
+   b)bfs implimentations
+   c)bfs relatd numericals 5-10 (depend on capacity)
+   d)dfs applications
+     1)finding parent
+     2)finding level
+     3)reverse traking its final path
+     4)shortest path
+     5)connected component
+     6)detecting cycle in directed graph and undirected graph
+     7)Path Finding
+     8)Topological Sorting
+     9)To test if a graph is biparti11) Path Finding We can either use Breadth First or Depth First Traversal to find if there is a path between two verticeste
+     10 Solving puzzles with only one solution, such as mazes. (DFS can be adapted to find all solutions to a maze by only including nodes on the current path in the visited set.)
+     11)For an unweighted graph, DFS traversal of the graph produces the minimum spanning tree and all pair shortest path tree.

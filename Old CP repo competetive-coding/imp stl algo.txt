@@ -1,0 +1,30 @@
+#include <iostream>
+#include <map>
+#include <string>
+#include <iterator>
+#include <algorithm>
+ 
+int main() {
+ 
+	std::map<std::string, int> mapOfWordCount;
+	// Insert Element in map
+	mapOfWordCount.insert(std::pair<std::string, int>("first", 1));
+	mapOfWordCount.insert(std::pair<std::string, int>("second", 2));
+	mapOfWordCount.insert(std::pair<std::string, int>("third", 3));
+	mapOfWordCount.insert(std::pair<std::string, int>("third", 4));
+	mapOfWordCount.insert(std::pair<std::string, int>("third", 5));
+ 
+	// Create a map iterator and point to beginning of map
+	std::map<std::string, int>::iterator it = mapOfWordCount.begin();
+ 
+	// Iterate over the map using c++11 range based for loop
+	for (std::pair<std::string, int> element : mapOfWordCount) {
+		// Accessing KEY from element
+		std::string word = element.first;
+		// Accessing VALUE from element.
+		int count = element.second;
+		std::cout << word << " :: " << count << std::endl;
+	}
+ 
+	return 0;
+}

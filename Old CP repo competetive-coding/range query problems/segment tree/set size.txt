@@ -1,0 +1,12 @@
+
+Node* contr(long int arr[], long int n) 
+{ 
+    long int x = (long int)(ceil(log2(n)));  
+   long int max_size = 2 * (long int)pow(2, x) - 1;  
+    Node* tree = new Node[max_size]; 
+   
+    contree(tree, arr, 0, n - 1, 1); 
+   
+    return tree; 
+} 
+   

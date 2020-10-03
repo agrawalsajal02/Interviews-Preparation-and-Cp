@@ -1,0 +1,8 @@
+1)read https://discuss.codechef.com/t/a-technique-to-convert-tree-to-a-linear-array-for-efficient-query-processing/9298
+
+2)read discussion https://discuss.codechef.com/t/chgoram-editorial/35317/29
+
+3)https://codeforces.com/blog/entry/23170
+4)problem :https://www.codechef.com/problems/IITK1P10
+
+code:-You can write pre-order traversal of the tree's nodes and note that subtrees now correspond to subsegments of that order. Now you have range sum query problem.

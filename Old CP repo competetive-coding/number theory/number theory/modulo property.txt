@@ -1,0 +1,22 @@
+A)
+propertites of modulus
+1)(a+b)%m=(a%m+b%m)%m
+2)(a-b)%m=(a%m-b%m+m)%m   take eg:- a=8 b=3  m=7
+3)(a*b)%m=(a%m*b%m)%m    proof :-refer fast modu expo in notebook
+4)  (a/b)%m = ((a%m)*(b(inverse)%m))%m
+  b(inverse)=multipicative modulo inverse
+
+eg (a*y)%b=1 now we can say thay y is modulo inverse of a w.r.t to  b
+
+ eg (6*y)%7==1  therefore y=6 is modulo inverse of 6 withrespect to seven
+
+used in chinese remainder theorem
+
+
+
+b)Fast exponentiation  1)expo by brute  o(n)2)by fast exo(logn)    
+c)Fast modulo exponentiation   by 1)recursion 2)by binary method
+
+   
+
+    

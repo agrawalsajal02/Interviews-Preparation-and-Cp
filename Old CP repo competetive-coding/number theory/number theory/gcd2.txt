@@ -1,0 +1,59 @@
+
+1)brute force
+t.c = o(min(a,b))
+gcd<=min(a,b)
+and check from i=1 to min(a,b)
+and check if deivides both or not and update your ans in iteration 
+
+
+2) euclid algorithm
+
+gcd of two number is 
+a)gcd(a,b)=gcd(b,a%b)    - (recursive case)  (also meaning that     if(a<b) then gcd(a,b)==>>gcd(b,a) where (b>a)
+b)gcd(a,0)=a        -(base case)
+ eg gcd(10,14)=gcd(14,10%14)=gcd(14,10)=gcd(10,4)=gcd(4,2)=gcd(2,0)=2
+
+
+time complexicity:-
+
+x=a%b   therfor  0<=x<=b-1
+
+
+     assume a>b  then gcd(a,b)=gcd(b,a%b) ans x=a%b
+     now 
+ 1)  (very imp result)  a%b=a-floor(a/b)*b
+
+ 
+
+now max value of a%b then ceil(a/b) must be minimum and its minimum value must be 1 (a>b)
+
+
+ 2) (imp resut)  max(a%b)=a-b  ==> a%b<=a-b
+                                  x=a-b;  -1 eqn
+                        and  0<=x<=b-1  ==>  x<b  - 2eqn
+
+adding 1 and 2
+   2x<a-b+b
+      (v v vimp result)          x<  a  /  2
+     
+now gcd(a,b)=gcd(b,x)=gcd(x,b%x)
+takin x~=a/2
+
+gcd(a,b)=gcd(a/2,b%a/2)  (taking gcd(a,b) and  gcd(x,b%x))
+
+now t(n)=t(n/2)+k
+
+
+on solving this recurance relation we get 
+t(n)=summasion of k= k*logn
+therefore time complexicity of euclid algotihm is o(n)=log(n)base2 = > o(n)=log(max(a,b)base2  ( where n is which is greater among a and b)
+ 
+
+
+
+
+
+
+
+
+3)  gcd*lcm=product of two number

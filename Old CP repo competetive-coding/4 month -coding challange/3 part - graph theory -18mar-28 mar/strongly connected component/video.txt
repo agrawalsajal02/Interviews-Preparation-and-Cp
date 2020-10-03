@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=paexK7dOGL8
+
+very good video
+
+
+
+steps:-
+1)build graph
+2)dfs on each vertix;
+3)when all the adjaceent vertex of a vertix ix visited make push to stack apart from recursive stack;
+4)traspose the graph;
+5)make all visi vertic to unvisited veritex
+6)again start dfs on pop one by one frok start as atarting node and simultaneously use visited to make vis nodes visited;
+5)this traspose graph give connected components on a loop on amin progRAM;

@@ -1,0 +1,8 @@
+steps to learn trie
+1)find out its applications
+2)problems
+  a)find max xor of two elemtnt in array  o(n)
+  b)range xor maximum in o(n)
+  c)print all strings in lexigographically fashion
+  d)finding whether a string is present in prefix in other string or not
+  e)finding xor of two elemnts is less than k

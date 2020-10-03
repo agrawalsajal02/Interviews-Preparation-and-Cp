@@ -1,0 +1,2 @@
+just start loop from 1 to that no and find it is divisible by it or not 
+time comp:-o(m)

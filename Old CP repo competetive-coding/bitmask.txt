@@ -1,0 +1,4 @@
+1)to find out nearest 2 power 
+a)mask=pow(2,floor(log2(n)))
+b)find first msb 1  and all the bit left to it remove it
+that is hightst power os two

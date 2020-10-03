@@ -1,0 +1,25 @@
+if you are taking data type sttring then calling length function is a constant time because it stores the length internally
+
+
+but but but
+
+
+if you are taking character string and using strlen function it is o(n) operation 
+and further more if you are iteration over the length of string in this way
+
+for(lli=0;i<strlen(n);i++){
+
+
+}
+
+
+then every time the strlen function call on every j making time complexity n square
+therefore it is better to store the strlen in a variable before loop
+
+ll p=strlen(n);
+
+for(lli=0;i<strlen(n);i++){
+
+
+}
+
